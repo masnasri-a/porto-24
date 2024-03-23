@@ -34,10 +34,9 @@ const HomeMenu = () => {
             <div className="work p-5 mt-28">
                 <div className="row">
                     <div className="col gap-5 flex md:flex-row flex-col">
-                        <div className="project-1 flex flex-col text-center gap-3 w-5/12">
-                            <Image src={ICEDesktop} alt="ice-desktop" className="hidden md:block h-[460px] duration-100  object-cover w-[845px]" />
-                            <Image src={ICEMobile} alt="ice-mobile" className="md:hidden block h-[460px] duration-100 object-cover w-[845px]" />
-
+                        <div className="project-1 flex flex-col text-center gap-3">
+                            <Image src={ICEDesktop} alt="ice-desktop" className="hidden md:block h-[460px] cursor-pointer object-cover w-[845px]" />
+                            <Image src={ICEMobile} alt="ice-mobile" className="md:hidden block h-[460px] object-cover w-[490px]" />
                             <span className='font-normal mt-2'>ICE</span>
                             <span className='text-base text-gray-500'>Content Creator Platform</span>
                         </div>

@@ -18,10 +18,10 @@ const Headers = () => {
                     <SheetTrigger><FaAlignRight /></SheetTrigger>
                     <SheetContent>
                         <SheetHeader>
-                            <SheetTitle>Are you absolutely sure?</SheetTitle>
-                            <SheetDescription>
-                                This action cannot be undone. This will permanently delete your account
-                                and remove your data from our servers.
+                            <SheetTitle></SheetTitle>
+                            <SheetDescription className='flex flex-col '>
+                                <Link className='hover:bg-gray-300 mt-5 pt-2 pb-1 transition' href="/">Home</Link>
+                                <Link className='hover:bg-gray-300 mt-5 pt-2 pb-1 transition' href="/about">About</Link>
                             </SheetDescription>
                         </SheetHeader>
                     </SheetContent>
